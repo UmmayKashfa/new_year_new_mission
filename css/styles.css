@@ -1,0 +1,33 @@
+/* font-family: "Inter", sans-serif;font-family: "Merriweather", serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* banner style */
+.banner{
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+    background-image: url('../images/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.36);
+    background-blend-mode: multiply;
+    padding: 177px 295px;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+.banner h4{
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+.banner p{
+    font-size: 72px;
+    font-weight: 700;
+    
+}
