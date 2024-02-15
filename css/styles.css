@@ -7,6 +7,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+.primary-color{
+    color: #FF0000;
+}
 /* banner style */
 .banner{
     font-family: "Merriweather", serif;
@@ -29,5 +32,23 @@ main{
 .banner p{
     font-size: 72px;
     font-weight: 700;
-    
+}
+/* 65% OFF Style */
+.off-section{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin: 120px 0;
+    font-weight: 700;
+}
+.off-section h1{
+    font-size: 88px;
+}
+.off-section .off-title{
+    font-size: 24px;
+    margin: 48px 0 16px 0;
+}
+.off-section .off-sub-title{
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 48px;
 }
