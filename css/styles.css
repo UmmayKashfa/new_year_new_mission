@@ -142,12 +142,45 @@ h2{
     margin: 120px 0;
     text-align: center;
 }
+.holidays-sale .holidays-sale-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.holidays-sale .holidays-sale-subtitle{
+    font-size: 72px;
+    margin-top: 16px;
+}
 .holidays-sale .holidays-sale-img{
     display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
-.holidays-sale .holidays-sale-right img{
-    margin-left: 10px;
+.holidays-sale .holidays-sale-right{
+    position: relative;
+    top:0;
+    left: 0;   
+}
+.holidays-sale-right .holidays-sale-right-child1{
+     position: absolute; 
+     bottom: 0;
+     right: 0;
+}
+.holidays-sale-right .holidays-sale-right-child2{
+     position: absolute; 
+     bottom: 60px;
+     right: 250px;
+}
+.holidays-sale .holidays-sale-img-left{
+    z-index: 1;
+}
+.holidays-sale .holidays-sale-img-left img{
+    max-width: 80%;
+    margin-bottom: -150px;
+}
+.holidays-sale .holidays-sale-below-img{
+    max-width: 1140px;
+    z-index: -1;
 }
 /* portfolio styles */
 .portfolio .portfolio-title{
