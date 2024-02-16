@@ -26,6 +26,9 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+h2{
+    font-family: "Merriweather", serif;
+}
 /* banner style */
 .banner{ 
     font-family: "Merriweather", serif;
@@ -40,7 +43,7 @@ a{
     border-radius: 16px;
     margin-top: 50px;
 }
-.banner h4{
+.banner h2{
     font-size: 32px;
     font-weight: 300;
     margin-bottom: 16px;
@@ -70,7 +73,6 @@ a{
 }
 /* join now section */
 .join-now{
-    font-family: "Merriweather", serif;
     background-image: url('../images/Vectorrr.png');
     background-position: center;
     background-size: cover;
@@ -128,11 +130,39 @@ a{
     margin-right: 50px;
 }
 .coming-soon .coming-soon-description h2{
-    font-family: "Merriweather", serif;
     font-size: 48px;
     font-weight: 800;
     margin-top: 16px;
 }
 .coming-soon .coming-soon-year{
     font-size: 48px;
+}
+/* holidays-sale styles */
+.holidays-sale{
+    margin: 120px 0;
+    text-align: center;
+}
+.holidays-sale .holidays-sale-img{
+    display: flex;
+}
+
+.holidays-sale .holidays-sale-right img{
+    margin-left: 10px;
+}
+/* portfolio styles */
+.portfolio .portfolio-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.portfolio .portfolio-img{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.portfolio .portfolio-img-left, .portfolio-img-right{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+   
 }
