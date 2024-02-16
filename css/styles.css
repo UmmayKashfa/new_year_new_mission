@@ -155,14 +155,42 @@ h2{
     font-weight: 700;
     margin-top: 16px;
 }
-.portfolio .portfolio-img{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
 .portfolio .portfolio-img-left, .portfolio-img-right{
     display: flex;
     gap: 24px;
     align-items: center;
-   
+}
+.portfolio .portfolio-img-left{
+    margin-bottom: 24px;
+}
+.portfolio .portfolio-img img:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    border: 5px solid #FF0000;
+}
+/* Subscribe styles */
+.subscribe{
+    text-align: center;
+    background-color: rgba(250, 233, 233, 0.938);
+    margin: 120px 0;
+    padding: 80px 212px;
+    border-radius: 16px;
+}
+.subscribe .subscribe-title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+.subscribe .subscribe-input input[type="email"]{
+    padding: 25px 300px 25px 30px;
+    border: none;
+    border-radius: 50px;
+}
+.subscribe .subscribe-btn{
+    padding: 24px 56px;
+    color: #ffffff;
+    background-color: #FF0000;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    margin-left: -50px;
 }
